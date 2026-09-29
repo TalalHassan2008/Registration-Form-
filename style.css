@@ -91,6 +91,7 @@ button {
 }
 
 button:hover {
+    color: black;
     background: linear-gradient(
         90deg,
         rgb(0, 217, 165),
@@ -107,6 +108,18 @@ p {
 }
 
 
+form {
+    position: relative;
+}
 
+
+
+.fa-xmark {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
