@@ -1,0 +1,112 @@
+ * {
+    padding: 0px;
+    margin: 0px ;
+} 
+
+form {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: white;
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin: 25px auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(100, 220, 190);
+    outline: none;
+     font-size: 15px;
+} 
+
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        135deg,
+        rgb(8, 169, 223),
+        rgb(0, 217, 165)
+    );
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(16, 137, 193);
+     margin-bottom: 15px;
+}
+
+
+.terms {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.terms input[type="checkbox"] {
+    width: auto;
+    margin: 2px 0 0 0;
+    flex-shrink: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    display: block;
+    width: 285px;
+    height: 45px;
+    margin: 30px auto 15px;
+
+    border: none;
+    background: linear-gradient(
+        90deg,
+        rgb(3, 77, 101),
+        rgb(177, 60, 144)
+    );
+
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background: linear-gradient(
+        90deg,
+        rgb(0, 217, 165),
+        rgb(8, 169, 223)
+    );
+
+    transform: scale(1.03);
+}
+
+
+
+p {
+    text-align: center;
+}
+
+
+
+
+
